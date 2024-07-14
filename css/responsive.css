@@ -1,0 +1,116 @@
+@media screen and (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+
+  ul.menu-list {
+    display: none;
+  }
+
+  .respons .bars {
+    display: block;
+  }
+
+  .hero-content {
+    top: 10% !important;
+  }
+
+  .hero-service-container {
+    padding: 40px 30px !important;
+  }
+
+  .hero-content {
+    width: 90% !important;
+  }
+
+  .hero-service-contact {
+    padding-left: 10px;
+  }
+
+  .hero-service-contact input,
+  .book-btn {
+    width: 98% !important;
+  }
+
+  .hero-service-contact select {
+    width: 98% !important;
+    margin-block: 2rem;
+  }
+
+  /* about-us */
+  .about-image-box,
+  .about-content {
+    width: 98% !important;
+    text-align: center;
+  }
+
+  #about-us {
+    margin-top: 10rem;
+  }
+
+  .about-image-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 12rem;
+  }
+
+  .about-img2 {
+    top: 245px !important;
+  }
+
+  /* Our-service */
+  #our-service {
+    margin-top: 5rem !important;
+  }
+
+  .service-box {
+    width: 48% !important;
+    margin-bottom: 2rem;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .hero-content {
+    top: 0px;
+  }
+
+  .hero-title,
+  .hero-title span {
+    font-size: 4.5rem !important;
+  }
+
+  .hero-subtitle {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+  .container {
+    width: 100%;
+  }
+
+  .primary-btn {
+    display: none;
+  }
+
+  .hero-content {
+    top: 0% !important;
+  }
+
+  .hero-title,
+  .hero-title span {
+    font-size: 4rem !important;
+  }
+
+  .hero-subtitle {
+    font-size: 1.6rem !important;
+  }
+
+  .service-box {
+    width: 98% !important;
+  }
+}
